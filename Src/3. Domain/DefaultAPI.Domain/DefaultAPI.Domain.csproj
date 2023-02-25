@@ -13,7 +13,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\DefaultAPI.Infra.CrossCutting\DefaultAPI.Infra.CrossCutting.csproj" />
+    <ProjectReference Include="..\..\6. Common\DefaultAPI.Infra.CrossCutting\DefaultAPI.Infra.CrossCutting.csproj" />
   </ItemGroup>
 
 </Project>

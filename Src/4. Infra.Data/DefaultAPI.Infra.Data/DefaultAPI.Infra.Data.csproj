@@ -29,8 +29,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\DefaultAPI.Application\DefaultAPI.Application.csproj" />
-    <ProjectReference Include="..\DefaultAPI.Domain\DefaultAPI.Domain.csproj" />
+    <ProjectReference Include="..\..\2. Application\DefaultAPI.Application\DefaultAPI.Application.csproj" />
+    <ProjectReference Include="..\..\3. Domain\DefaultAPI.Domain\DefaultAPI.Domain.csproj" />
   </ItemGroup>
 
 </Project>

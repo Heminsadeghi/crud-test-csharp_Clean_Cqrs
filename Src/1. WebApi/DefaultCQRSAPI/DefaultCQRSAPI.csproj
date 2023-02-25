@@ -14,7 +14,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\DefaultAPI.Infra.Structure.IoC\DefaultAPI.Infra.Structure.IoC.csproj" />
+    <ProjectReference Include="..\..\5. Infra.Structure.IoC\DefaultAPI.Infra.Structure.IoC\DefaultAPI.Infra.Structure.IoC.csproj" />
   </ItemGroup>
 
 

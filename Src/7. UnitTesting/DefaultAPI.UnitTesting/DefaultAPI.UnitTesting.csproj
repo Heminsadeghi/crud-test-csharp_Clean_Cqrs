@@ -17,7 +17,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\DefaultCQRSAPI\DefaultCQRSAPI.csproj" />
+    <ProjectReference Include="..\..\1. WebApi\DefaultCQRSAPI\DefaultCQRSAPI.csproj" />
   </ItemGroup>
 
 </Project>

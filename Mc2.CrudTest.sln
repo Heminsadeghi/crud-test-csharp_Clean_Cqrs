@@ -22,9 +22,6 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4. Infra.Data", "4. Infra.Data", "{7A58E6D8-10A6-46B8-A1EC-A80E78BBE034}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5. Infra.Structure.IoC", "5. Infra.Structure.IoC", "{0063515A-E78F-4CC4-A2D8-5B580462446F}"
-	ProjectSection(SolutionItems) = preProject
-		Src\5. Infra.Structure.IoC\DefaultAPI.Infra.Structure.IoC\DefaultAPI.Infra.Structure.IoC.csproj = Src\5. Infra.Structure.IoC\DefaultAPI.Infra.Structure.IoC\DefaultAPI.Infra.Structure.IoC.csproj
-	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "6. Common", "6. Common", "{98EB18CD-2927-4BCD-B53F-B43A89D24A8E}"
 EndProject
@@ -41,6 +38,8 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DefaultAPI.Infra.Data", "Src\4. Infra.Data\DefaultAPI.Infra.Data\DefaultAPI.Infra.Data.csproj", "{B685B002-1E9D-4925-B40D-EC9F141E3B79}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DefaultCQRSAPI", "Src\1. WebApi\DefaultCQRSAPI\DefaultCQRSAPI.csproj", "{2E1ADBAD-F25E-4969-94EF-6C909CC0F675}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DefaultAPI.Infra.Structure.IoC", "Src\5. Infra.Structure.IoC\DefaultAPI.Infra.Structure.IoC\DefaultAPI.Infra.Structure.IoC.csproj", "{46237CAB-9342-4EB9-8AB8-E32923F91C8F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -88,6 +87,10 @@ Global
 		{2E1ADBAD-F25E-4969-94EF-6C909CC0F675}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2E1ADBAD-F25E-4969-94EF-6C909CC0F675}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2E1ADBAD-F25E-4969-94EF-6C909CC0F675}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46237CAB-9342-4EB9-8AB8-E32923F91C8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46237CAB-9342-4EB9-8AB8-E32923F91C8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46237CAB-9342-4EB9-8AB8-E32923F91C8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46237CAB-9342-4EB9-8AB8-E32923F91C8F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -106,6 +109,7 @@ Global
 		{4F090E2E-45A1-4EDF-9E17-251A2792D282} = {C51E2C7C-B92B-4C62-9F11-52CE18CD92FB}
 		{B685B002-1E9D-4925-B40D-EC9F141E3B79} = {7A58E6D8-10A6-46B8-A1EC-A80E78BBE034}
 		{2E1ADBAD-F25E-4969-94EF-6C909CC0F675} = {28DF90A5-8D66-422A-A8F4-D03C4EE43AC0}
+		{46237CAB-9342-4EB9-8AB8-E32923F91C8F} = {0063515A-E78F-4CC4-A2D8-5B580462446F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4B5A26C9-68C1-49D9-9F32-AF907A1730C2}

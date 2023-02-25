@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
@@ -21,9 +21,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\DefaultAPI.Domain\DefaultAPI.Domain.csproj" />
-    <ProjectReference Include="..\DefaultAPI.Domain\DefaultAPI.Domain.csproj" />
-    <ProjectReference Include="..\DefaultAPI.Infra.CrossCutting\DefaultAPI.Infra.CrossCutting.csproj" />
+    <ProjectReference Include="..\..\3. Domain\DefaultAPI.Domain\DefaultAPI.Domain.csproj" />
+    <ProjectReference Include="..\..\6. Common\DefaultAPI.Infra.CrossCutting\DefaultAPI.Infra.CrossCutting.csproj" />
   </ItemGroup>
 
   <ItemGroup>

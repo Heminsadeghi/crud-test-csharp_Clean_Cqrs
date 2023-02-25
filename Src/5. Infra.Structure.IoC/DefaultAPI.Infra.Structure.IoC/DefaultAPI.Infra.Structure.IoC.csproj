@@ -15,7 +15,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\DefaultAPI.Infra.Data\DefaultAPI.Infra.Data.csproj" />
+    <ProjectReference Include="..\..\4. Infra.Data\DefaultAPI.Infra.Data\DefaultAPI.Infra.Data.csproj" />
   </ItemGroup>
 
 </Project>
