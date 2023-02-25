@@ -1,0 +1,36 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <LangVersion>preview</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20230225081322_init.cs" />
+    <Compile Remove="Migrations\20230225081322_init.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Migrations\20210502020627_new_tables_II.cs~RF301be487.TMP" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Dapper" Version="2.0.90" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="3.1.8">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.8" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.8">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Z.EntityFramework.Extensions.EFCore" Version="3.13.14" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DefaultAPI.Application\DefaultAPI.Application.csproj" />
+    <ProjectReference Include="..\DefaultAPI.Domain\DefaultAPI.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
