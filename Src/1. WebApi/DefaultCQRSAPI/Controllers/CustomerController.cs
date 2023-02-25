@@ -24,11 +24,11 @@ namespace DefaultCQRSAPI.Controllers
         }
 
         [HttpGet("CustomerQueryId")]
-        public async Task<IActionResult> GetById()
+        public async Task<IActionResult> GetById(long Id)
         {
             try
             {
-                var response = await _mediator.Send(new CustomerQueryById());
+                var response = await _mediator.Send(new CustomerQueryById(Id));
                 if (response != null)
                     return Ok(response);
 

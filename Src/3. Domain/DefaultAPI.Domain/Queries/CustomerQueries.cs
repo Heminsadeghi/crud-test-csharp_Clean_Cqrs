@@ -11,6 +11,11 @@ namespace DefaultAPI.Application.Queries
 {
     public class CustomerQueryById : IRequest<Customer>
     {
+
+        public CustomerQueryById(long Id)
+        {
+            Id = Id;
+        }
         public long? Id { get; set; }
     }
 
