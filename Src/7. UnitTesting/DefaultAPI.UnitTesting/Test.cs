@@ -23,13 +23,13 @@ namespace DefaultAPI.UnitTesting
 
         private readonly Mock<IMediator> _mediatorMock;
         private readonly Mock<ICustomerService> _customerQueriesMock;
-     
+
         public UnitTestController()
         {
             _mediatorMock = new Mock<IMediator>();
             _customerQueriesMock = new Mock<ICustomerService>();
 
-           
+
         }
 
         [Fact]
